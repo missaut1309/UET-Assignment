@@ -77,10 +77,11 @@ WSGI_APPLICATION = 'mykltn.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'assign',
-        'USER': 'postgres', 
-        'PASSWORD': 'admin',
-        'HOST': 'localhost'
+        'NAME': 'my_assign',
+        'USER': 'uetassignment', 
+        'PASSWORD': 'uetassignment',
+        'HOST': 'localhost',
+        'PORT': '5432',
     }
 }
 
